@@ -1,0 +1,62 @@
+.container{
+    background-color: seagreen;
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+}
+.calculator{
+    width: 320px;
+    height: 520px;
+    background-color: #eaedef;
+    position: relative;
+    margin: auto;
+    top: 20px;
+    box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px; 
+}
+.button{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.output{
+    height: 100px;
+    padding: 20px;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 22px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+.button:active,.button:nth-child(4):active,
+.button:nth-child(8):active,
+.button:nth-child(12):active,.button:nth-child(16):active,
+.button:nth-child(20):active{
+    font-size: 18px;
+}
+.buttontop{
+    background-color: seagreen;
+    font-size: 20px;
+}
+.button:nth-child(4){
+    background-color: seagreen;
+}
+.button:nth-child(8){
+    background-color: seagreen;
+}
+.button:nth-child(12){
+    background-color: seagreen;
+}
+.button:nth-child(16){
+    background-color: seagreen;
+}
+.button:nth-child(20){
+    background-color: seagreen;
+}
+.empty{
+    border: none;
+    background-color: #eaedef;
+}
